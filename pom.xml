@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.TiagoAlcan</groupId>
 	<artifactId>ping</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>ping</name>
 	<description>Aplicação Ping Pong</description>
 	<properties>
@@ -30,6 +30,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>ping</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

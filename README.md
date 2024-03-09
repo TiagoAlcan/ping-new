@@ -5,7 +5,7 @@ A aplicação X é uma API de integração de dados
 
 ## Pré-requisitos
 
-- Linux
+- Java 17+
 - Docker 
 - Acesso a internet
 
@@ -13,19 +13,26 @@ A aplicação X é uma API de integração de dados
 
 #### Download
 
-http://wwww.linkparadonwload.com/item
+```
+git clone https://github.com/TiagoAlcan/ping-new.git
+```
 
 #### Instalação
 
 ```
-cd pasta
-instalador.exe
+cd pasta instalador.exe
 ```
 
 ## Execução
 
+* Criação da imagem
 
 #### Docker
+
+```
+docker build -t ping .
+```
+
 
 ```
 docker run -d -p 8080:8080 minhaimagen:tag
